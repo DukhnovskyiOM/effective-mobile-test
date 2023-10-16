@@ -1,0 +1,9 @@
+CREATE DATABASE pernusers;
+
+CREATE TABLE users(
+user_id SERIAL PRIMARY KEY NOT NULL,
+name VARCHAR(255),
+surname VARCHAR(255),
+city VARCHAR(255),
+age INTEGER
+)
